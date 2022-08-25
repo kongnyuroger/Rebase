@@ -1,0 +1,21 @@
+.project-box
+{
+    width: 350px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.project-box img
+{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+.project-box .text-box h3
+{
+    color: var(--primaryTextColor);
+}
+.project-box .text-box p
+{
+    color: var(--primaryColor-light);
+}
+

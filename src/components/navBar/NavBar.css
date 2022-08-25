@@ -1,0 +1,91 @@
+.nav-bar
+{
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    background-color: transparent;
+    color: var(--secondaryColor);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 0px 20px;
+    z-index: 1000;
+
+}
+.nav-bar.active
+{
+    background-color: #6f23ff;
+}
+.logo
+{
+    z-index: 1000;
+    margin-right: 40px;
+}
+nav a
+{
+    margin: 0 1rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--secondaryColor);
+    text-decoration: none;
+}
+nav a:hover 
+{
+    opacity: 0.7;
+}
+.nav-bar .nav-btn
+{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: var(--secondaryColor);
+    margin-right: 20px;
+    outline: none;
+    display: none;
+    opacity: 0;
+}
+
+@media (max-width: 1024px) {
+    .nav-bar
+    {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .nav-bar .nav-btn
+    {
+        display: block;
+        opacity: 1;
+    }
+    .nav-bar nav
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vh;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(62, 57, 107);
+        gap: 1.5rem;
+        padding: 0 30px;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.5s;
+        transform: translateY(-100vh);
+    }
+    .nav-bar .nav-close-btn
+    {
+       position: absolute;
+       top: 1.7rem;
+       right: 3.5rem;
+    }
+    .nav-bar .responsive-nav
+    {
+        transform: none;
+    }
+}

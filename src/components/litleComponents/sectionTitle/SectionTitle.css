@@ -1,0 +1,24 @@
+.header
+{
+   text-align: center;
+   font-size: 36px;
+   color: var(--primaryTextColor);
+   font-family: 'Domine', serif;
+   margin-top: 0;
+}
+.text
+{
+    text-align: center;
+    width: 600px;
+    margin: 0px auto;
+    font-size: var(--maxParagraphFont);
+    color: var(--primaryColor-light);
+}
+
+@media (max-width: 425px) {
+    .text
+    {
+        width: 100%;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,67 @@
+.program
+{
+    padding: 100px;
+    padding-bottom: 0px;
+    background-color: #f8faff;
+}
+.programs
+{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+ .rates
+{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 2rem;
+    background: white;
+    border-bottom: 1px solid rgba(88, 87, 87, 0.226);
+}
+ .rates .rate-box
+{
+    width: 300px;
+    text-align: center;
+}
+.rates .rate-box h1
+{
+    margin-bottom: 10px;
+    color: var(--primaryTextColor);
+    font-family: 'Domine', serif;
+    font-size: 36px;
+}
+.rates .rate-box p
+{
+    font-weight: 700;
+    color: #2c3340;
+}
+
+@media (max-width: 1024px) {
+    .program
+    {
+        padding: 50px 10px;
+    }
+}
+@media (max-width: 768px){
+    .programs{
+        padding: 50px 0px;
+    }
+    .rates
+    {
+        padding: 50px 30px;
+    }
+}
+@media (max-width: 425px){
+    .rates
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .rates .rate-box
+    {
+        margin: 0px auto;
+    }
+}
