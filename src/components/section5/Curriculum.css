@@ -1,0 +1,66 @@
+.curriculum
+{
+    
+    padding: 100px;
+    background-color: #f8faff;
+}
+.curriculum .text-box__content
+{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.text-box
+{
+    width: 50%;
+}
+.curriculum .text-box p
+{
+    font-size: var(--maxParagraphFont);
+    line-height: 1.65em;
+    color: var(--primaryColor-light);
+}
+.curriculum h1
+{
+    
+    font-size: 36px;
+    color: var(--primaryTextColor);
+    font-family: var(--headerFontFamily);
+    margin-top: 0;
+}
+.dropdown-container
+{
+    position: relative;
+    width: 400px;
+    
+}
+.dropdown-container button
+{
+    font-size: 20px;
+    box-shadow: 0 30px 30px -17px hsl(0deg 0% 68% / 12%);
+    color: var(--primaryTextColor);
+    width: 100%;
+    height: 50px;
+}
+.dropdown-content
+{
+    list-style: none;
+    padding: 30px 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: none;
+    transition: 1.5s ease-in-out;
+    background: white;
+}
+.show-drop-down,
+.show-drop-down2
+{
+    transition: 1.5s ease;
+    display: block;
+}
+.dropdown-content li
+{
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: var(--primaryTextColor);
+}

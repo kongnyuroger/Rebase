@@ -12,6 +12,7 @@
 }
 .project-box .text-box h3
 {
+    font-family: var(--headerFontFamily);
     color: var(--primaryTextColor);
 }
 .project-box .text-box p

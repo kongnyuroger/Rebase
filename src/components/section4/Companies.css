@@ -1,0 +1,25 @@
+.companies
+{
+    padding: 50px 100px;
+}
+
+.companies h1
+{
+    font-size: 40px;
+    padding: 0px 100px;
+    text-align: center;
+    font-family: var(--headerFontFamily);
+    color: var(--primaryTextColor);
+}
+.contents
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.companies img
+{
+    width: 200px;
+    height: 70px;
+    object-fit: contain;
+}

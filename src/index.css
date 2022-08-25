@@ -6,6 +6,7 @@ body {
 }
 :root
 {
+  --headerFontFamily: 'Domine', serif;
   --primaryTextColor:#3e396b;
   --primaryColor-light:#636c98;
   --secondaryColor: white;

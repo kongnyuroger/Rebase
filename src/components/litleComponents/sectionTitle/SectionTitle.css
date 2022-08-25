@@ -3,7 +3,7 @@
    text-align: center;
    font-size: 36px;
    color: var(--primaryTextColor);
-   font-family: 'Domine', serif;
+   font-family: var(--headerFontFamily);
    margin-top: 0;
 }
 .text
