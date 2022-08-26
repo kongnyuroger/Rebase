@@ -11,7 +11,7 @@ const Home = () => {
                    online, connect to life-changing opportunities. 
                    <span>Pay $0 until you land a job!</span>
                 </p>
-                <MainButton className='try'/>
+                <MainButton text='Apply Now'/>
             </div>
             <div className='home__img-box'>
                 <img src={require('../../images/img1.jpg')} />

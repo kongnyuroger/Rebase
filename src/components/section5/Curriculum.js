@@ -1,7 +1,14 @@
 import React from 'react';
 import { useRef } from 'react';
 import SectionTitle from '../litleComponents/sectionTitle/SectionTitle';
-import './Curriculum.css'
+import './Curriculum.css';
+import logo24 from '../../images/logo24.svg'
+import logo25 from '../../images/logo25.png'
+import logo26 from '../../images/logo26.svg'
+import logo27 from '../../images/logo27.svg'
+import logo29 from '../../images/logo29.png'
+import logo30 from '../../images/logo30.png'
+import logo31 from '../../images/logo31.png'
 
 const Curriculum = () => {
     const drop1Ref = useRef();
@@ -13,10 +20,9 @@ const Curriculum = () => {
         drop2Ref.current.classList.toggle('show-drop-down2')
     }
     return (
-        <div className='curriculum'>
+        <div id='curriculum' className='curriculum'>
             <div className='text-box__content'>
-                <div className='text-box'>
-                    <div className='text'></div>
+                <div className='curriculum__text-box'>
                     <h1>A World-Class Curriculum</h1>
                     <p>Our team curates a curriculum that helps you learn the most in-demand
                      skills in web development so you can get a great job, no matter where you live.
@@ -58,6 +64,15 @@ const Curriculum = () => {
                             </ul>
                     </div>
                 </div>
+            </div>
+            <div className='programming-language'>
+                <img src={logo24} />
+                <img src={logo25} />
+                <img src={logo26} />
+                <img src={logo27} />
+                <img src={logo29} />
+                <img src={logo30} />
+                <img src={logo31} />
             </div>
           
         </div>

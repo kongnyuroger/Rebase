@@ -16,14 +16,14 @@ function NavBar() {
         <div className='nav-bar active'>
             <h1 className='logo'>Rebase</h1>
             <nav ref={navRef}> 
-                <a href='#'>Curriculum</a>
+                <a href='#curriculum'>Curriculum</a>
                 <a href='#'>Tuition</a>
                 <a href='#'>FAQs</a>
                 <a href='#'>Blog</a>
                 <a href='#'>Student Outcomes</a>
                 <a href='#'>For Companies </a>
                 <a href='#'>Log In</a>           
-                <MainButton />
+                <MainButton text='Apply Now'/>
                 <button className='nav-btn nav-close-btn' onClick={showNavBar}>
                     <FaTimes />
                 </button>

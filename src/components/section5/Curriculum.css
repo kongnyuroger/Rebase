@@ -10,11 +10,11 @@
     gap: 2rem;
     justify-content: center;
 }
-.text-box
+.curriculum__text-box
 {
     width: 50%;
 }
-.curriculum .text-box p
+.curriculum__text-box p
 {
     font-size: var(--maxParagraphFont);
     line-height: 1.65em;
@@ -63,4 +63,52 @@
     margin-bottom: 10px;
     font-weight: 700;
     color: var(--primaryTextColor);
+}
+
+.programming-language
+{
+    display: flex;
+    gap: 6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0px;
+    padding-bottom: 0px;
+}
+@media(max-width: 768px){
+    .curriculum
+    {
+        padding: 100px 50px;
+    }
+    .dropdown-container
+    {
+        width: 300px
+    }
+     .curriculum__text-box
+     {
+         width: 60%;
+     }
+     .programming-language
+     {
+         gap: 3rem;
+     }
+}
+@media(max-width: 425px){
+    .curriculum
+    {
+        padding: 100px 10px;
+    }
+    .curriculum .text-box__content
+    {
+        flex-direction: column;
+    }
+    .curriculum__text-box
+     {
+         width: 90%;
+         padding: 0px 20px;
+     }
+     .dropdown-container
+     {
+        padding-left: 20px;
+        width: 80%;
+     }
 }

@@ -7,6 +7,7 @@ import Testimonail from "./components/section2/Testimonail";
 import Program from "./components/section3/Program";
 import Companies from "./components/section4/Companies";
 import Curriculum from "./components/section5/Curriculum";
+import SignUp from "./components/section6/SignUp";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Program />
       <Companies />
       <Curriculum />
+      <SignUp />
     </div>
   );
 }
