@@ -1,0 +1,27 @@
+.find-us
+{
+    padding: 100px;
+    background-color: #f8faff;
+    padding-top: 50px;
+}
+.find-us h2
+{
+    text-align: center;
+    color: var(--primaryTextColor);
+    margin-bottom: 4rem;
+}
+.find-us__content
+{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ 
+ img
+{
+
+    width: 200px;
+    height: 80px;
+    object-fit: contain
+}

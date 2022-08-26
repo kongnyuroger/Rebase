@@ -1,0 +1,34 @@
+.experience-card
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+
+}
+.experience-card img
+{
+    width: 500px;
+    height: 500px;
+}
+.experience-card__text,
+.experience-card__text-2
+
+{
+    margin-top: 90px;
+    width: 500px;
+}
+.experience-card__text-2
+{
+    margin-top: 60px;
+}
+.experience-card h1
+{
+    color: var(--primaryTextColor);
+    font-family: var(--headerFontFamily);
+}
+.experience-card p
+{
+    line-height: 1.94em;
+    font-size: var(--maxParagraphFont);
+    color: var(--primaryColor-light)
+}
