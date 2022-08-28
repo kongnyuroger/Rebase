@@ -1,0 +1,38 @@
+.applicationProcess
+{
+    padding: 100px;
+    border-bottom: 1px solid rgba(88, 87, 87, 0.226);
+}
+.applicationProcess-contents
+{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.span1-bg-color
+{
+    background-color: rgba(111,35,255,.67)
+}
+.span2-bg-color
+{
+    background-color: rgba(65,211,189,.25);
+}
+.span4-bg-color
+{
+    background-color: #f9f1ae
+}
+.ending
+{
+    margin-top: 100px;
+    text-align: center;
+}
+
+@media(max-width: 768px)
+{
+    .applicationProcess
+    {
+        padding: 100px 50px;
+    } 
+}

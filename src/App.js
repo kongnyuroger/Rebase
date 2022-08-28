@@ -10,6 +10,9 @@ import Curriculum from "./components/section5/Curriculum";
 import SignUp from "./components/section6/SignUp";
 import FindUs from "./components/section7/FindUs";
 import Experience from "./components/section8/Experience";
+import DailySchedule from "./components/section9/DailySchedule";
+import ApplicationProcess from "./components/section11/ApplicationProcess";
+import Discover from "./components/section12/Discover";
 function App() {
   return (
     <div className="App">
@@ -22,6 +25,9 @@ function App() {
       <SignUp />
       <FindUs />
       <Experience />
+      <DailySchedule />
+      <ApplicationProcess />
+      <Discover />
     </div>
   );
 }

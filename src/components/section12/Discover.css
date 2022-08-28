@@ -1,0 +1,20 @@
+.discover
+{
+    padding: 50px;
+}
+.discover__contents
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 50px;
+}
+.change-text-style
+{
+    text-align: left;
+    height: 500px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

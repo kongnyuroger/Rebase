@@ -74,6 +74,11 @@
     padding: 100px 0px;
     padding-bottom: 0px;
 }
+.programming-language img
+{
+    width: fit-content;
+    height: fit-content;
+}
 @media(max-width: 768px){
     .curriculum
     {

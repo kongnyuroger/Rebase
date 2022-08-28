@@ -1,9 +1,9 @@
 import React from 'react';
 import './ProjectBox.css'
 
-const ProjectBox = ({image, header, text}) => {
+const ProjectBox = ({image, header, text, className=''}) => {
     return (
-        <div className='project-box'>
+        <div className={`project-box ${className}`}>
             <img src={image} />
             <div className='text-box'>
                 <h3>{header}</h3>

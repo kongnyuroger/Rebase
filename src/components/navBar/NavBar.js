@@ -23,7 +23,10 @@ function NavBar() {
                 <a href='#'>Student Outcomes</a>
                 <a href='#'>For Companies </a>
                 <a href='#'>Log In</a>           
-                <MainButton text='Apply Now'/>
+                <MainButton text='Apply Now'
+                className='big-btn'
+                className2='btn-text'
+                />
                 <button className='nav-btn nav-close-btn' onClick={showNavBar}>
                     <FaTimes />
                 </button>

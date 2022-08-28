@@ -35,6 +35,15 @@ nav a:hover
 {
     opacity: 0.7;
 }
+.big-btn
+{
+    padding: 10px 20px;
+}
+.btn-text
+{
+    font-size: 0px;
+    font-weight: 300;
+}
 .nav-bar .nav-btn
 {
     padding: 5px;

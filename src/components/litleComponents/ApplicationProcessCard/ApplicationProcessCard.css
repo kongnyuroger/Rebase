@@ -1,0 +1,53 @@
+.application-process-card
+{
+    width: 220px;
+
+}
+.application-process-card__header
+{
+    position: relative;
+    background-color: rgba(111,35,255,.67);
+    color: white;
+    text-align: center;
+    font-family: var(--headerFontFamily);
+    font-size: 18px;
+    padding: 20px 20px;
+}
+.application-process-card__header span
+{
+    position: absolute;
+    top: 2px;
+    left: -14px;
+    padding: 4px 8px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #41d3bd;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+.application-process-card__contents
+{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #ede4ff;
+    padding: 20px;
+    padding-bottom: 50px;
+    height: 300px;
+}
+.application-process-card__contents span
+{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 0px;
+    border-radius: 30px;
+    color: white;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+.application-process-card__contents__text
+{
+   color: var(--primaryColor-light);
+   line-height: 1.81rem;
+}
