@@ -8,9 +8,9 @@ import img113 from '../../images/img113.jpg'
 
 const Discover = () => {
     return (
-        <div className='discover'>
+        <div id='discover' className='discover'>
             <SectionTitle
-            header='Discover the latest at Microverse'
+            header='Discover the latest at Rebase'
             text='Learn about our latest news, alum spotlights, coding and career advice, remote team building, and more.'
             />
             <div className='discover__contents'>
@@ -30,7 +30,7 @@ const Discover = () => {
                 <ProjectBox 
                 className='change-text-style'
                 image={img113}
-                header='Microverse and Tunga Partner to Help More African Developers Succeed'
+                header='Rebase and Tunga Partner to Help More African Developers Succeed'
                 text ='We are exited to announs are partnership Tunga to be able to help more 
                 talented people in Afica connect to life changing opportunities and excel in
                 international Tech Career'

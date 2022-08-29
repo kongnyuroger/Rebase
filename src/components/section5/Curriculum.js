@@ -13,12 +13,17 @@ import logo31 from '../../images/logo31.png'
 const Curriculum = () => {
     const drop1Ref = useRef();
     const showDropDown1 = () => {
-        drop1Ref.current.classList.toggle('show-drop-down')
+        drop1Ref.current.classList.toggle('show-drop-down');
+        changeBtnColor1.current.classList.toggle('changeb-btn-color')
     }
     const drop2Ref = useRef();
     const showDropDown2 = () => {
-        drop2Ref.current.classList.toggle('show-drop-down2')
+        drop2Ref.current.classList.toggle('show-drop-down2');
+        changeBtnColor2.current.classList.toggle('changeb-btn-color')
     }
+    const changeBtnColor1 = useRef();
+    const changeBtnColor2 = useRef();
+    
     return (
         <div id='curriculum' className='curriculum'>
             <div className='text-box__content'>
@@ -39,7 +44,7 @@ const Curriculum = () => {
                 </div>
                 <div className='dropdown-container'>
                     <div className='dropdown-1'>
-                        <button onClick={showDropDown1}>Technical Skills</button>     
+                        <button ref={changeBtnColor1} onClick={showDropDown1}>Technical Skills</button>     
                             <ul ref={drop1Ref} className='dropdown-content'>
                                 <li>HTML & CSS</li>
                                 <li>Ruby</li>
@@ -52,7 +57,7 @@ const Curriculum = () => {
                             </ul>
                     </div>
                     <div className='dropdown-1'>
-                        <button onClick={showDropDown2}>Soft Skills</button>     
+                        <button ref={changeBtnColor2} onClick={showDropDown2}>Soft Skills</button>     
                             <ul ref={drop2Ref} className='dropdown-content'>
                                 <li>Effective Networking</li>
                                 <li>Time Management</li>

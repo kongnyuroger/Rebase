@@ -11,7 +11,10 @@ const SignUp = () => {
                 </h2>
                 <input className='email' type='text' placeholder='Your Email Address' />
                 <p><input type="checkbox" />I authorize Microverse to send the syllabus and information about the Software Development Program to my email.</p>
-                <MainButton text='GET SYLLABUS'/>
+                <MainButton text='GET SYLLABUS'
+                className='sign-up-btn'
+                className2='sign-up-text'
+                />
             </div>
         </div>
     );

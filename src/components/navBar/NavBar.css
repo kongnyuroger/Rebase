@@ -41,7 +41,7 @@ nav a:hover
 }
 .btn-text
 {
-    font-size: 0px;
+    font-size: 16px;
     font-weight: 300;
 }
 .nav-bar .nav-btn
@@ -96,5 +96,10 @@ nav a:hover
     .nav-bar .responsive-nav
     {
         transform: none;
+    }
+    .big-btn
+    {
+        margin-right: 50px;
+        
     }
 }

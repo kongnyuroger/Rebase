@@ -58,6 +58,12 @@
     transition: 1.5s ease;
     display: block;
 }
+.changeb-btn-color
+{
+    background-color: #6f23ff;
+    border: none;
+    color: white;
+}
 .dropdown-content li
 {
     margin-bottom: 10px;

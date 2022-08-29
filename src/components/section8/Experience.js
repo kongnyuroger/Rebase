@@ -6,9 +6,9 @@ import { ExperienceCard1, ExperienceCard2 } from '../litleComponents/experienceC
 
 const Experience = () => {
     return (
-        <div className='experience'>
+        <div id='experience' className='experience'>
             <SectionTitle
-            header='The Microverse Experience'
+            header='The Rebase Experience'
             text='Your Microverse experience centers around accountability, 
                 support, and community. You learn in an environment that mimics
                  a real-world remote workspace.'

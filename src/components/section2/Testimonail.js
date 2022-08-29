@@ -5,7 +5,7 @@ import './Testimonail.css'
 
 const Testimonail = () => {
     return (
-        <div className='testimonail'>
+        <div id='testimonies' className='testimonail'>
             <SectionTitle 
             header='We help you chang your life'
             text='Rebase students are from countries all over the world.

@@ -28,7 +28,14 @@
     margin-top: 100px;
     text-align: center;
 }
-
+.application-process-btn
+{
+    padding: 15px 130px;
+}
+.application-process-text
+{
+    font-size: 20px;
+}
 @media(max-width: 768px)
 {
     .applicationProcess

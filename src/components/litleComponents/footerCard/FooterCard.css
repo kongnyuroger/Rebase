@@ -1,0 +1,13 @@
+.footer-card
+{
+    width: fit-content;
+    max-width: 350px;
+}
+.footer-card-header
+{
+    font-family: var(--headerFontFamily);
+}
+.footer-card p
+{
+    font-weight: 600;
+}

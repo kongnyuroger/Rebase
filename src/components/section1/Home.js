@@ -12,6 +12,8 @@ const Home = () => {
                    <span>Pay $0 until you land a job!</span>
                 </p>
                 <MainButton text='Apply Now'
+                className='home-btn'
+                className2='home-btn__text'
                 />
             </div>
             <div className='home__img-box'>

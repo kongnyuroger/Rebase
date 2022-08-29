@@ -29,6 +29,14 @@
 {
     font-size: 20px;
 }
+.home-btn
+{
+    padding: 15px 60px;
+}
+.home-btn__text
+{
+    font-size: 20px
+}
 .home__text-box .try
 {
     width: 400px;

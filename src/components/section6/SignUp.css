@@ -31,6 +31,15 @@
     margin-bottom: 3rem;
 }
 
+.sign-up-btn
+{
+    padding: 15px 60px;
+}
+.sign-up-text
+{
+    font-size: 20px;
+}
+
 @media(max-width: 425px){
     .sign-up
     {

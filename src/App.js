@@ -13,9 +13,11 @@ import Experience from "./components/section8/Experience";
 import DailySchedule from "./components/section9/DailySchedule";
 import ApplicationProcess from "./components/section11/ApplicationProcess";
 import Discover from "./components/section12/Discover";
+import Footer from "./components/section13/Footer";
 function App() {
   return (
     <div className="App">
+      <Router>
       <NavBar />
       <Home />
       <Testimonail />
@@ -28,6 +30,8 @@ function App() {
       <DailySchedule />
       <ApplicationProcess />
       <Discover />
+      <Footer />
+      </Router>
     </div>
   );
 }

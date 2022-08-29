@@ -17,11 +17,11 @@ function NavBar() {
             <h1 className='logo'>Rebase</h1>
             <nav ref={navRef}> 
                 <a href='#curriculum'>Curriculum</a>
-                <a href='#'>Tuition</a>
-                <a href='#'>FAQs</a>
-                <a href='#'>Blog</a>
-                <a href='#'>Student Outcomes</a>
-                <a href='#'>For Companies </a>
+                <a href='#experience'>Experience</a>
+                <a href='#testimonies'>Testimonies</a>
+                <a href='#discover'>Discover</a>
+                <a href='#apply-process'>Apply process</a>
+                <a href='#companies'>For Companies </a>
                 <a href='#'>Log In</a>           
                 <MainButton text='Apply Now'
                 className='big-btn'

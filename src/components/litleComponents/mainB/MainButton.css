@@ -2,16 +2,15 @@
 {
 
     text-align: center;
-    padding: 15px 50px;
     border: none;
     background: var(--btn1Color);
     border-radius: 4px;
     font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .main-button span
 {
     font-weight: 600;
-    font-size: 20px;
     color: #3e3e3e
 }
 .main-button:hover span

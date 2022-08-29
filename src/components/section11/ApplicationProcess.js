@@ -6,7 +6,7 @@ import MainButton from '../litleComponents/mainB/MainButton';
 
 const ApplicationProcess = () => {
     return (
-        <div className='applicationProcess'>
+        <div id='apply-process' className='applicationProcess'>
             <SectionTitle 
             header='Application Process'
             text='Show us that you are a great team player and determined to work hard to become a successful web developer. A new cohort starts every 5 weeks. You can apply from any country in the world!'
@@ -51,7 +51,10 @@ const ApplicationProcess = () => {
                 />
             </div>
             <div className='ending'>
-                <MainButton text='APPLY NOW'/>
+                <MainButton text='APPLY NOW'
+                className='application-process-btn'
+                className2='application-process-text'
+                />
                 <p>Pay Microverse $0 until you get a job.</p>
             </div>
             

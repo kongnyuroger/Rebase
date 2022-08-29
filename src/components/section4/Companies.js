@@ -30,9 +30,9 @@ import logo23 from '../../images/logo23.png'
 
 const Companies = memo(() => {
     return (
-        <div className='companies'>
+        <div id='companies' className='companies'>
                 <h1>
-                  Microverse students are hired by companies of all sizes, globally
+                  Rebase students are hired by companies of all sizes, globally
                 </h1>
                 <div className='contents'>            
                     <img src={logo1} />                 
