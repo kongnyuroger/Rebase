@@ -1,0 +1,106 @@
+.log-in 
+{
+    display: flex;
+    gap: 6rem;
+    color: var(--primaryTextColor);
+}
+.log-in .image-box
+{
+    width: 450px;
+    height: 100vh;
+    background: url(../../images/img16.jpeg), linear-gradient(0deg, #000, #272727 20%, hsla(0, 0%, 100%, 0)104%);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.text-box__header
+{
+    padding: 30px 0px 10px 0px;
+
+    border-bottom: 0.5px solid black;
+}
+.text-box__header h1
+{
+    margin: 0px;
+    color: rgb(111, 35, 255);
+}
+.text-box__header p
+{
+    margin: 0px;
+}
+h2
+{
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form
+{
+    margin-top: 30px;
+    position: relative;
+    max-width: 450px;
+    padding-right: 40px;
+}
+ form input,
+ .log-in-btn
+{
+    height: 50px;
+    font-size: 18px;
+    outline: none;
+    width: 100%;
+    padding: 0px 10px;
+    border: 1px solid var(--primaryTextColor);
+}
+.check-box
+{
+    width: 20px;
+    height: 16px;
+}
+.input-names
+{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.input-names input
+{
+    width: 200px;
+}
+.log-in-btn
+{
+    border: none;
+    background: #41d3bd;
+}
+
+@media(max-width: 768px)
+{
+    .log-in 
+    {
+        padding: 50px;
+        justify-content: center;
+    }
+    .log-in .image-box
+    {
+        display: none
+    }
+}
+
+@media(max-width: 425px)
+{
+    .text-box
+    {
+        max-width: 400px;
+    }
+    form
+    {
+        max-width: 360px;
+    }
+    .input-names
+    {
+        flex-direction: column;
+    }
+    .input-names input
+    {
+        width: 100%;
+    }
+}
