@@ -17,13 +17,13 @@ function NavBar() {
         <div className='nav-bar active'>
             <h1 className='logo'>Rebase</h1>
             <nav ref={navRef}> 
-                <a href='#curriculum'>Curriculum</a>
-                <a href='#experience'>Experience</a>
-                <a href='#testimonies'>Testimonies</a>
-                <a href='#discover'>Discover</a>
-                <a href='#apply-process'>Apply process</a>
-                <a href='#companies'>For Companies </a>
-                <a href='#'>Log In</a>  
+                <a onClick={showNavBar} href='#curriculum'>Curriculum</a>
+                <a onClick={showNavBar} href='#experience'>Experience</a>
+                <a onClick={showNavBar} href='#testimonies'>Testimonies</a>
+                <a onClick={showNavBar} href='#discover'>Discover</a>
+                <a onClick={showNavBar} href='#apply-process'>Apply process</a>
+                <a onClick={showNavBar}  href='#companies'>For Companies </a>
+                <a onClick={showNavBar} href='#'>Log In</a>  
                 <Link to='/log-in'>
                     <MainButton text='Apply Now'
                     className='big-btn'

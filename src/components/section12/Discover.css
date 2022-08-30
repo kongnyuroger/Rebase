@@ -18,3 +18,10 @@
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+@media(max-width: 1028px)
+{
+    .discover
+    {
+        padding-top: 100px;
+    }
+}

@@ -18,6 +18,7 @@
     .testimonail
     {
         padding-left: 50px;
+        padding-top: 100px;
         height: fit-content;
     }
     .testimonails__contents
@@ -37,6 +38,7 @@
 @media (max-width: 768px){
     .testimonail{
         padding: 30px 0px;
+        padding-top: 100px;
         padding-left: 10px;
         padding-right: 10px;
     }

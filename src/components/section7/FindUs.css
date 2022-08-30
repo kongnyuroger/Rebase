@@ -18,10 +18,29 @@
     flex-wrap: wrap;
 }
  
- img
+.find-us img
 {
 
     width: 200px;
     height: 80px;
     object-fit: contain
+}
+
+@media(max-width: 768px)
+{
+    .find-us
+    {
+        padding: 100px 50px;
+    }
+    .find-us img
+    {
+    
+        width: 100px;
+        height: 60px;
+        object-fit: contain
+    }
+    .find-us__content
+    {
+        gap: 3rem;
+    }
 }
