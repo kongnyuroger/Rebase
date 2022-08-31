@@ -43,3 +43,10 @@
         padding: 100px 50px;
     } 
 }
+@media(max-width: 425px)
+{
+    .application-process-btn
+    {
+        padding: 15px 60px;
+    }
+}
