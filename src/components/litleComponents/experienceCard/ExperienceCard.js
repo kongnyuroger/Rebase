@@ -13,7 +13,7 @@ export const ExperienceCard1 = ({header, text1, text2, image}) => {
                 {text2}
                 </p>
             </div>
-            <img src={image}/>
+            <img  alt='' src={image}/>
         </div>
     );
 };
@@ -30,7 +30,7 @@ export const ExperienceCard2 = ({header, text1, text2, image}) => {
                 {text2}
                 </p>
             </div>
-            <img src={image}/>
+            <img alt='' src={image}/>
             
         </div>
     );

@@ -38,10 +38,10 @@ const Footer = () => {
                 <p>Talent is everywhere, but opportunity is not.</p>
                 <p>Follow us on our journey to close the gap and connect one million people to remote jobs by 2030.</p>
                 <div className='footer-card4__icons'>
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-square-instagram"></i>
-                <i class="fa-brands fa-square-twitter"></i>
-                <i class="fa-brands fa-youtube"></i>
+                <i className="fa-brands fa-square-facebook"></i>
+                <i className="fa-brands fa-square-instagram"></i>
+                <i className="fa-brands fa-square-twitter"></i>
+                <i className="fa-brands fa-youtube"></i>
                 </div>
             </div>
         </div>

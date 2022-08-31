@@ -17,7 +17,7 @@ const Home = () => {
                 />
             </div>
             <div className='home__img-box'>
-                <img src={require('../../images/img1.jpg')} />
+                <img alt='' src={require('../../images/img1.jpg')} />
             </div>
         </div>
     ); 
