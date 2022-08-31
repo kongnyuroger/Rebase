@@ -1,6 +1,5 @@
 import React from 'react';
 import { useRef } from 'react';
-import SectionTitle from '../litleComponents/sectionTitle/SectionTitle';
 import './Curriculum.css';
 import logo24 from '../../images/logo24.svg'
 import logo25 from '../../images/logo25.png'

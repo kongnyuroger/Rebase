@@ -10,7 +10,7 @@ const TestimonailBox = ({text, personality, imgSrc}) => {
             <div className='testimonail-box__ address'>
                 <h3>{personality}</h3>
             </div>
-            <img className='testimonail-box__img' src={imgSrc} />
+            <img alt='' className='testimonail-box__img' src={imgSrc} />
         </div>
     );
 };

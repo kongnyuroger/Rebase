@@ -13,13 +13,13 @@ const FindUs = () => {
         <div className='find-us'>
             <h2>You may have seen us in..</h2>
             <div className='find-us__content'>
-                    <img src={logo32}/>
-                    <img src={logo33}/>
-                    <img src={logo34}/>
-                    <img src={logo35}/>
-                    <img src={logo38}/>
-                    <img src={logo39}/>
-                    <img src={logo40}/>
+                    <img alt='' src={logo32}/>
+                    <img alt='' src={logo33}/>
+                    <img alt='' src={logo34}/>
+                    <img alt='' src={logo35}/>
+                    <img alt='' src={logo38}/>
+                    <img alt='' src={logo39}/>
+                    <img alt='' src={logo40}/>
             </div>
         </div>
     );

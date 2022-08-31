@@ -1,6 +1,6 @@
 import React from 'react';
 import './LogIn.css'
-import img16 from '../../images/img16.jpeg'
+
 
 const LogIn = () => {
     return (
