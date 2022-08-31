@@ -9,7 +9,7 @@ const Experience = () => {
         <div id='experience' className='experience'>
             <SectionTitle
             header='The Rebase Experience'
-            text='Your Microverse experience centers around accountability, 
+            text='Your Rebase experience centers around accountability, 
                 support, and community. You learn in an environment that mimics
                  a real-world remote workspace.'
             />

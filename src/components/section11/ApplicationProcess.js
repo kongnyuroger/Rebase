@@ -17,7 +17,7 @@ const ApplicationProcess = () => {
                 header='LEVEL UP'
                 span1='OPTIONAL'
                 span2='SELF-PACED'
-                text='Complete LevelUp, our  pre-Microverse course if you are new to coding or want to prepare for the coding challenges.'
+                text='Complete LevelUp, our  pre-Rebase course if you are new to coding or want to prepare for the coding challenges.'
                 spanBgColor1='span1-bg-color'
                 spanBgColor2='span1-bg-color'
 
@@ -45,7 +45,7 @@ const ApplicationProcess = () => {
                 header='FULL-TIME PROGRAM'
                 span1='FULL-TIME'
                 span2='10 MONTHS'
-                text='If you pass the previous steps, you will get invited to become a full-time Microverse student.' 
+                text='If you pass the previous steps, you will get invited to become a full-time Rebase student.' 
                 spanBgColor1='span4-bg-color'
                 spanBgColor2='span4-bg-color'
                 />
@@ -55,7 +55,7 @@ const ApplicationProcess = () => {
                 className='application-process-btn'
                 className2='application-process-text'
                 />
-                <p>Pay Microverse $0 until you get a job.</p>
+                <p>Pay Rebase $0 until you get a job.</p>
             </div>
             
         </div>

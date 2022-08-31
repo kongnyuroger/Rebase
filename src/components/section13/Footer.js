@@ -27,7 +27,7 @@ const Footer = () => {
 
             <FooterCard
             header='Other Resources'
-            text1='Is Microverse Worth It? Here is What Students Have To Say'
+            text1='Is Rebase Worth It? Here is What Students Have To Say'
             text2='Starting Salary in Software Development Around the World - 2022'
             text3='Introduction to JavaScript: A Guide for Beginners'
             text4='10 Coding Challenges, Tips, and Websites to Practice – 2022'
