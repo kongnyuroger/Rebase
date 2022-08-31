@@ -22,7 +22,7 @@ function NavBar() {
                 <a onClick={showNavBar} href='#discover'>Discover</a>
                 <a onClick={showNavBar} href='#apply-process'>Apply process</a>
                 <a onClick={showNavBar}  href='#companies'>For Companies </a>
-                <a onClick={showNavBar} href='#'>Log In</a>  
+                <a onClick={showNavBar} href='#home'>Log In</a>  
                 <Link to='/log-in'>
                     <MainButton text='Apply Now'
                     className='big-btn'

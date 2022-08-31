@@ -70,13 +70,13 @@ const Curriculum = () => {
                 </div>
             </div>
             <div className='programming-language'>
-                <img src={logo24} />
-                <img src={logo25} />
-                <img src={logo26} />
-                <img src={logo27} />
-                <img src={logo29} />
-                <img src={logo30} />
-                <img src={logo31} />
+                <img alt='' src={logo24} />
+                <img alt='' src={logo25} />
+                <img alt='' src={logo26} />
+                <img alt='' src={logo27} />
+                <img alt='' src={logo29} />
+                <img alt='' src={logo30} />
+                <img alt='' src={logo31} />
             </div>
           
         </div>

@@ -4,7 +4,7 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className='home'>
+        <div id ='home' className='home'>
             <div className="home__text-box">
                 <h1>Become an international software developer from anywhere</h1>
                 <p>Gain the skills you need to get hired. Learn 
