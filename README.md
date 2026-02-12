@@ -1,78 +1,65 @@
-#view project 
+# Rebase — React Landing Site
 
+A responsive React marketing site for the Rebase program. Built with Create React App, the site showcases program sections and a Log In page. A live demo is available.
+
+## Live Demo
+
+Visit the deployed site to see the app in action:
 https://rebase4.netlify.app/
 
+## About
 
+This repository is a single-page React site assembled from reusable components. It uses client-side routing and per-component CSS for styling. The HomePage component composes the main sections.
 
+## Features
 
+- Bootstrapped with Create React App
+- React Router for client-side routing
+- Modular components for sections and small UI elements
 
-# Getting Started with Create React App
+## Quick Start
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Install dependencies and run locally:
 
-## Available Scripts
+npm install
+npm start
 
-In the project directory, you can run:
+Build for production:
 
-### `npm start`
+npm run build
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Scripts and dependencies are defined in package.json.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
 
-### `npm test`
+- public/ — Static HTML and meta files (public/index.html)
+- src/ — React source code and components
+- src/index.js — App entry point
+- src/App.js — Router with routes for HomePage and LogIn
+- src/components/homepage/HomePage.js — Assembles main site sections
+- src/components/login/LogIn.js — Sign up / login page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Development Notes
 
-### `npm run build`
+- Images are imported via require(...) inside components
+- Styles are plain .css files imported per component
+- Uses react-icons and Font Awesome for icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm run build
 
-### `npm run eject`
+This creates the production bundle in the build/ directory.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project includes a Netlify cache plugin in devDependencies for Netlify deployments.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Fork the repo
+- Create a feature branch
+- Implement your changes
+- Open a pull request
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Keep components modular and styles scoped to their component folders.
