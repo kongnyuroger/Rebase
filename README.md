@@ -63,5 +63,5 @@ The project includes a Netlify cache plugin in devDependencies for Netlify deplo
 - Open a pull request
 
 Keep components modular and styles scoped to their component folders.
-## Contributing  
+# Contributing  author
 Roger
